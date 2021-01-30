@@ -66,8 +66,10 @@ a.active {
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
 }
-
-.booking-compleate-massage {
+.warning-massage{
+    display:none;
+}
+.booking-compleat-massage {
     display: none;
     width: 90%;
     margin: 0 auto;
