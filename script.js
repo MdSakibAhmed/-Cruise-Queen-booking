@@ -1,5 +1,4 @@
 
-
 // Display ticket quantity
 function displayQuantity(id, isIncrease) {
     let newCount;
