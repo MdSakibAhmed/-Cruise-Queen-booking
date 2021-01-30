@@ -1,3 +1,5 @@
+
+
 // Display ticket quantity
 function displayQuantity(id, isIncrease) {
     let newCount;
@@ -23,7 +25,7 @@ function getSubtotal() {
     return subtotal;
 }
 
-// Get tax amount and display
+// Get and display tax amount
 function getTax(subtotal) {
     const taxElement = document.getElementById("tax");
     const tax = subtotal * 0.1;
@@ -88,7 +90,7 @@ function displayBookingSummary(summaryid, mainid) {
 
 // Display successful massage on click book now button
 document.getElementById("book-now").addEventListener("click", function () {
-    
+
     // check if the customer click on book now without select any number of  ticket
     const firstClassQuantity = document.getElementById("first-class-quantity").value;
     const economyClassQuantity = document.getElementById("economy-quantity").value;
